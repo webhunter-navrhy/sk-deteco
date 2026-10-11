@@ -1,0 +1,103 @@
+{% extends "_base.html" %}
+{% set titulek = 'Súkromný detektív Bratislava – DETECO' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="uvod">
+  <div class="wrap uvod-mriezka">
+    <div class="uvod-text">
+      <p class="stitok">Detektívna kancelária · Bratislava</p>
+      <h1>Váš súkromný detektív</h1>
+      <p class="perex">Naším cieľom je nájsť odpovede na otázky, ktoré Vás trápia. Umožníme Vám diskrétne získať informácie, dôležité pre Vaše rozhodovanie.</p>
+      <a class="tlacitko" href="#kontakt">Objednanie služieb</a>
+    </div>
+    <div class="desky">
+      <div class="priloha">{{ img('detektiv.jpg', 'Silueta detektíva v klobúku a kabáte v tme', sizes='(min-width: 60rem) 36rem, 100vw') }}</div>
+      <dl class="stitok-spisu">
+        <div><dt>Kancelária</dt><dd>DETECO s.r.o., Bratislava</dd></div>
+        <div><dt>Od roku</dt><dd>2010</dd></div>
+        <div><dt>Právny rámec</dt><dd>zákon č.&nbsp;473/2005&nbsp;Z.&nbsp;z.</dd></div>
+        <div><dt>Mlčanlivosť</dt><dd>doživotná, zo&nbsp;zákona</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="ponuka">
+  <div class="wrap">
+    <h2>Ponuka služieb</h2>
+    <p class="uvod-sekcie">Obráťte sa na nás s problémom a my Vám navrhneme optimálne riešenie prispôsobené Vašim individuálnym požiadavkám.</p>
+    <ul class="rejstrik" role="list">
+      {% for s in data.sluzby %}
+      <li class="spis">
+        <p class="spis-stitok">Spis · {{ s.stitok }}</p>
+        <div class="spis-text"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce o-nas" id="o-nas">
+  <div class="wrap o-nas-mriezka">
+    <div>
+      <h2>Elitní špecialisti</h2>
+      <p class="velky">Detektívna kancelária DETECO s.r.o. je vytvorená odborníkmi, ktorí špeciálne znalosti a schopnosti získavali počas dlhoročného pôsobenia v bezpečnostných zložkách SR (spravodajské služby, Policajný zbor SR).</p>
+      <p>Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia, každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient. Sme maximálne lojálni, postupujeme citlivo a premyslene.</p>
+    </div>
+    <aside class="zakon desky-list">
+      <p class="stitok">Právny rámec</p>
+      <p>Firma vykonáva bezpečnostnú službu v rozsahu zákona NR SR č. 473/2005 Z. z. o poskytovaní služieb v oblasti súkromnej bezpečnosti (§ 11 a § 12). Jej podstatou je detektívna činnosť: získavanie a zabezpečovanie relevantných informácií a dôkazov, ktoré môžu slúžiť ako dôkazný prostriedok v súdnom, resp. správnom konaní.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="sekce postup" id="postup">
+  <div class="wrap">
+    <h2>Ako to prebieha</h2>
+    <div class="postup-mriezka">
+    <ol class="chronologia" role="list">
+      {% for k in data.postup %}<li><h3>{{ k.krok }}</h3><p>{{ k.text }}</p></li>{% endfor %}
+    </ol>
+    <blockquote class="citat"><p>Sme maximálne lojálni, postupujeme citlivo a premyslene a vždy stojíme na Vašej strane.</p><footer>DETECO s.r.o.</footer></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="media">
+  <div class="wrap media-mriezka">
+    <div class="media-foto">{{ img('ta3.jpg', 'Detektív DETECO poskytuje rozhovor pre televíziu', sizes='(min-width: 60rem) 30rem, 100vw') }}</div>
+    <div>
+      <h2>Napísali o nás</h2>
+      <ul role="list" class="clanky">
+        {% for c in data.media %}<li class="vystrizok"><p class="datum">Výstrižok · {{ c.datum }}</p><h3>{{ c.nadpis }}</h3><p>{{ c.text }}</p></li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-mriezka">
+    <div>
+      <p class="stitok">Diskrétnosť a potreby klienta na prvom mieste</p>
+      <h2>Sme tu pre Vás</h2>
+      <p>Špecifikujte Vašu požiadavku prostredníctvom formulára. V priebehu nasledujúcich 24 hodín Vás budeme kontaktovať.</p>
+      <address>
+        <strong>DETECO s.r.o.</strong><br>Černyševského 10<br>851 01 Bratislava<br>
+        <a href="mailto:deteco@deteco.sk">deteco@deteco.sk</a><br>
+        <a href="tel:+421948130202">+421 948 130 202</a>
+      </address>
+      <p class="upozornenie"><strong>Upozornenie:</strong> neposielať SMS. Kontaktujte nás prosím telefonicky, mailom alebo použitím formulára na webe.</p>
+    </div>
+    <form class="formular spis-formular" method="post" data-endpoint="{{ site.formular.endpoint }}" data-demo="{{ 1 if site.formular.demo or not site.formular.endpoint else 0 }}">
+      <span class="razitko" aria-hidden="true">Dôverné</span>
+      <label>Telefón alebo e-mail <input name="kontakt" autocomplete="email" required></label>
+      <label>Váš odkaz <textarea name="zprava" rows="5" required></textarea></label>
+      <label class="suhlas"><input type="checkbox" name="gdpr" required><span>Ako dotknutá osoba dávam spoločnosti DETECO s. r. o. ako prevádzkovateľovi podľa článku 6 ods. 1 písm. a) nariadenia GDPR súhlas so spracovaním mojich osobných údajov vo vyššie uvedenom rozsahu na účely vybavovania podnetov, poskytovania informácií.</span></label>
+      <div class="past" aria-hidden="true"><label>Nevyplňovať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+      <button type="submit">Diskrétne odoslať</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+{% endblock %}

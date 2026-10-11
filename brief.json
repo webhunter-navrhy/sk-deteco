@@ -1,0 +1,440 @@
+{
+ "slug": "sk-deteco",
+ "zdroj_url": "http://deteco.sk",
+ "firma": "DETECO s. r. o.",
+ "obor": [
+  "právo a poradenství",
+  "technologie a bezpečnost"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "deteco@deteco.sk"
+  ],
+  "telefony": [
+   "+421 948 130 202"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/deteco.sk/"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://deteco.sk/wp-content/uploads/2019/08/logo-min.png",
+  "rozmery": [
+   234,
+   88
+  ]
+ },
+ "barvy": {
+  "css_promenne": {
+   "e-global-color-astglobalcolor0": "#0170b9",
+   "e-global-color-astglobalcolor1": "#3a3a3a",
+   "e-global-color-astglobalcolor2": "#3a3a3a",
+   "e-global-color-astglobalcolor3": "#4b4f58",
+   "e-global-color-astglobalcolor4": "#f5f5f5",
+   "e-global-color-astglobalcolor5": "#fff",
+   "e-global-color-astglobalcolor6": "#e5e5e5",
+   "e-global-color-astglobalcolor7": "#424242",
+   "e-global-color-astglobalcolor8": "#000"
+  },
+  "z_css": [
+   "#0274be",
+   "#e8bd6d",
+   "#61ce70",
+   "#73b9dc",
+   "#f40076",
+   "#3fc387"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#0170b9",
+   "#0274be",
+   "#e8bd6d"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://deteco.sk/wp-content/uploads/2021/12/StockSnap_VG49081NDD-1.jpg",
+   "sirka": 1234,
+   "vyska": 834,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://deteco.sk/wp-content/uploads/2019/11/b8fdafc2-9e18-4270-8385-d2a7055b1e58-768x432.jpg",
+   "sirka": 768,
+   "vyska": 432,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://deteco.sk/wp-content/uploads/2019/12/deteco-ta3.jpg",
+   "sirka": 1112,
+   "vyska": 498,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://deteco.sk/wp-content/uploads/2019/12/pxfuel.com_.jpg",
+   "sirka": 1280,
+   "vyska": 800,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://deteco.sk/wp-content/uploads/2019/12/pxfuel.com_-1.jpg",
+   "sirka": 1280,
+   "vyska": 800,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Váš súkromný detektív",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Váš súkromný detektív",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Nevera",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Preverovanie bezpečnosti",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Požiadavky na mieru",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Dospievajúce deti",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Preverovanie osôb",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Technické poradenstvo",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Kontaktujte nás",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Konzultácia",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Plán akcii",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Realizácia",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Spätná väzba",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Záver",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nevera počas pandémie",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nevera je často dôsledkom iných problémov",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nezvestných hľadáme aj my",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Ako vás môžu okradnúť na vianočných trhoch",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Ako pre milenky sledujeme manželky…",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Nevera",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Preverovanie bezpečnosti",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Požiadavky na mieru",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Dospievajúce deti",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Preverovanie osôb",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Technické poradenstvo",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Kontaktuje nás",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Konzultácia",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Plán akcii",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Realizácia",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Spätná väzba",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Záver",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nevera počas pandémie",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nevera je často dôsledkom iných problémov",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nezvestných hľadáme aj my",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Ako vás môžu okradnúť na vianočných trhoch",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Ako pre milenky sledujeme manželky…",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Naším cieľom je nájsť odpovede na otázky, ktoré Vás trápia. Umožníme Vám diskrétne získať informácie, dôležité pre Vaše rozhodovanie.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Obráťte sa na nás s problémom a my Vám navrhneme optimálne riešenie prispôsobené Vašim individuálnym požiadavkám.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Detektívna kancelária DETECO s.r.o. je vytvorená odborníkmi, ktorí špeciálne znalosti a schopnosti získavali počas dlhoročného pôsobenia v bezpečnostných zložkách SR (spravodajské služby, Policajný zbor SR).",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia, každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient. Sme maximálne lojálni, postupujeme citlivo a premyslene.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Detektívna kancelária DETECO s.r.o. je firma špecializovaná na oblasť komerčných bezpečnostných služieb v rozsahu zákona: NR SR č. 473/2005 Z. z. o poskytovaní služieb v oblasti súkromnej bezpečnosti a o zmene a doplnení niektorých zákonov (zákon o súkromnej bezpečnosti). Na základe § 11 a § 12 zákona NR SR č. 473/2005 Z. z., firma DETECO s.r.o. vykonáva bezpečnostnú službu, ktorej podstata je zameraná na detektívnu činnosť. Náplňou je v rámci platnej legislatívy Slovenskej republiky získavanie a zabezpečovanie relevantných informácií a dôkazov, ktoré môžu slúžiť ako dôkazný prostriedok v súdnom, resp. v správnom konaní.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Trápite sa, či je možné, že váš milovaný vás klame? Môže váš partner skrývať romancu alebo aféru?!",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Váš potomok nebude mať ani najmenšie podozrenie a Vy budete môcť pokojne spávať.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potrebujete pre prijatie zodpovedného rozhodnutia pravdivé a presné informácie?",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sú Vaše firemné / obchodné priestory vystavené zvýšenému riziku kriminality? Kam mizne Váš tovar, služby či informácie?",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zisťovanie skutočností, ktoré môžu slúžiť ako dôkazný prostriedok. Ide o súbor služieb v prospech klienta, resp. jeho právneho zástupcu.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ak Váš problém vyžaduje osobitný prístup a originálne riešenia.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zostavíme plán akcií, ktorý nám pomôže Váš prípad čo najskôr vyriešiť",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spracovanie získaných informácií a (po úhrade ceny služieb) ich odovzdanie klientovi",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia, každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "“Sme maximálne lojálni, postupujeme citlivo a premyslene a vždy stojíme na Vašej strane .”",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Špecifikujte Vašu požiadavku prostredníctvom formulára nižšie. V priebehu nasledujúcich 24 hodín Vás budeme kontaktovať.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Naším cieľom je nájsť odpovede na otázky, ktoré Vás trápia. Umožníme Vám diskrétne získať informácie, dôležité pre Vaše rozhodovanie.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Obráťte sa na nás s problémom a my Vám navrhneme optimálne riešenie prispôsobené Vašim individuálnym požiadavkám.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Detektívna kancelária DETECO s.r.o. je vytvorená odborníkmi, ktorí špeciálne znalosti a schopnosti získavali počas dlhoročného pôsobenia v bezpečnostných zložkách SR (spravodajské služby, Policajný zbor SR).",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia, každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient. Sme maximálne lojálni, postupujeme citlivo a premyslene.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Detektívna kancelária DETECO s.r.o. je firma špecializovaná na oblasť komerčných bezpečnostných služieb v rozsahu zákona: NR SR č. 473/2005 Z. z. o poskytovaní služieb v oblasti súkromnej bezpečnosti a o zmene a doplnení niektorých zákonov (zákon o súkromnej bezpečnosti). Na základe § 11 a § 12 zákona NR SR č. 473/2005 Z. z., firma DETECO s.r.o. vykonáva bezpečnostnú službu, ktorej podstata je zameraná na detektívnu činnosť. Náplňou je v rámci platnej legislatívy Slovenskej republiky získavanie a zabezpečovanie relevantných informácií a dôkazov, ktoré môžu slúžiť ako dôkazný prostriedok v súdnom, resp. v správnom konaní.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Trápite sa, či je možné, že váš milovaný vás klame? Môže váš partner skrývať romancu alebo aféru?!",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Váš potomok nebude mať ani najmenšie podozrenie a Vy budete môcť pokojne spávať.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potrebujete pre prijatie zodpovedného rozhodnutia pravdivé a presné informácie?",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sú Vaše firemné / obchodné priestory vystavené zvýšenému riziku kriminality? Kam mizne Váš tovar, služby či informácie?",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zisťovanie skutočností, ktoré môžu slúžiť ako dôkazný prostriedok. Ide o súbor služieb v prospech klienta, resp. jeho právneho zástupcu.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ak Váš problém vyžaduje osobitný prístup a originálne riešenia.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zostavíme plán akcií, ktorý nám pomôže Váš prípad čo najskôr vyriešiť",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spracovanie získaných informácií a (po úhrade ceny služieb) ich odovzdanie klientovi",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia, každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient. Sme maximálne lojálni, postupujeme citlivo a premyslene.",
+   "zdroj": "https://deteco.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Špecifikujte Vašu požiadavku prostredníctvom formulára nižšie. V priebehu nasledujúcich 24 hodín Vás budeme kontaktovať.",
+   "zdroj": "https://deteco.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 5, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "profesionálnedetektívne služby"
+}

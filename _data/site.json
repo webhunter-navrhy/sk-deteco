@@ -1,0 +1,57 @@
+{
+ "slug": "sk-deteco",
+ "nazev": "DETECO s. r. o.",
+ "url": "https://webhunter-navrhy.github.io/sk-deteco/",
+ "base": "/sk-deteco/",
+ "lang": "sk",
+ "popis": "Detektívna kancelária v Bratislave: nevera, preverovanie osôb a bezpečnosti, servis pre advokátov, technické poradenstvo. Diskrétne a v rozsahu zákona.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "detektiv.jpg",
+ "logo": "logo.png",
+ "theme_color": "#111c2b",
+ "typ": "LocalBusiness",
+ "ico": "45575819",
+ "kontakt": {
+  "email": "deteco@deteco.sk",
+  "telefon": "+421 948 130 202",
+  "adresa": {
+   "ulice": "Černyševského 10",
+   "psc": "851 01",
+   "mesto": "Bratislava",
+   "zeme": "SK"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [
+  "https://www.facebook.com/deteco.sk/"
+ ],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "",
+  "demo": true,
+  "predmet": "Dopyt z webu DETECO"
+ },
+ "nav": [
+  {
+   "text": "Ponuka",
+   "href": "#ponuka"
+  },
+  {
+   "text": "O nás",
+   "href": "#o-nas"
+  },
+  {
+   "text": "Ako na to",
+   "href": "#postup"
+  },
+  {
+   "text": "Napísali o nás",
+   "href": "#media"
+  },
+  {
+   "text": "Kontakt",
+   "href": "#kontakt"
+  }
+ ]
+}

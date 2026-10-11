@@ -1,0 +1,15 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Sekcia Ponuka služieb (PC 1440) je šesť rovnakých riadkov tabuľky na úzkom stĺpci. Koncept „spis“ sa ukazuje len v drobných sivých štítkoch „Spis · NEVERA“, takže sekcia pôsobí ako šablóna a desktop zostáva prázdny. Oprava: služby preusporiadať do mriežky 3×2 ako zložky spisu so záložkou hore. Pri Nevere, Preverovaní bezpečnosti a Servise advokátom použiť fotky, ktoré sú už v img/ a na webe chýbajú (nevera.jpg, kamery.jpg, advokat.jpg, penazenka.jpg). Popisy zväčšiť na 16–17 px.",
+    "Sekcia Napísali o nás (PC): fotka z TA3 je orezaná tak, že vidno hlavne zátylok redaktora a tvár človeka z DETECO je mimo záberu. Na mobile je záber v poriadku. Oprava: na desktope nastaviť object-position na ľavú časť záberu, prípadne dať fotku na šírku 16:9 nad články. K výstrižkom doplniť zdroj (Evita, TA3) a viditeľný odkaz „Čítať článok“, inak karty pôsobia ako mŕtvy text.",
+    "Typografia v sekciách Elitní špecialisti, Ako to prebieha a pri výstrižkoch: bežný text má na desktope asi 13 px a mono štítky (Spis ·, Výstrižok ·, metadáta na polaroide v hero) asi 8–9 px v svetlosivej s nízkym kontrastom. Oprava: text zväčšiť na 17 px, štítky v IBM Plex Mono na aspoň 12 px s kontrastom aspoň 4,5:1. Pri formulári zväčšiť klikateľnú plochu GDPR checkboxu na 40 px (QA hlási 28×28)."
+  ],
+  "silne": [
+    "Brand je zachovaný: biele logo DETECO SINCE 2010 vľavo v tmavej hlavičke, modrá #0170b9 v CTA, zlatá #e8bd6d z ich CSS len ako drobný akcent.",
+    "Obsah je pravdivý: texty sú doslova z deteco.sk, zákon č. 473/2005 a doživotná mlčanlivosť sú vecné dôkazy dôvery namiesto vymyslených čísel.",
+    "Na mobile je web dobre navrhnutý: tlačidlo ZAVOLAŤ je stále v hlavičke, polaroid v hero má čitelné metadáta, časová os postupu je prehľadná, formulár „Diskrétne odoslať“ má razítko DÔVERNÉ a nič nepreteká.",
+    "Detaily ako kartička spisu s páskou v hero, razítko DÔVERNÉ a chronológia postupu dávajú webu vlastnú atmosféru, ktorá sedí k detektívnej kancelárii."
+  ],
+  "verdikt": "Korektný redesign v brande klienta s pravdivým obsahom, ale koncept spisu je zatiaľ len v štítkoch a služby na PC pôsobia ako tabuľková šablóna. Opraviť služby (zložky s fotkami), orez fotky z TA3 a veľkosti písma, potom môže ísť von."
+}

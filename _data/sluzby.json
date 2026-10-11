@@ -1,0 +1,51 @@
+[
+ {
+  "nazev": "Nevera",
+  "popis": "Trápite sa, či je možné, že Váš milovaný Vás klame? Môže Váš partner skrývať romancu alebo aféru?",
+  "foto": null,
+  "alt": "Žena zakrýva tvár rukou, v pozadí partner",
+  "stitok": "NEVERA"
+ },
+ {
+  "nazev": "Dospievajúce deti",
+  "popis": "Váš potomok nebude mať ani najmenšie podozrenie a Vy budete môcť pokojne spávať.",
+  "foto": null,
+  "alt": null,
+  "stitok": "DOSPIEVAJÚCE DETI"
+ },
+ {
+  "nazev": "Preverovanie osôb",
+  "popis": "Potrebujete pre prijatie zodpovedného rozhodnutia pravdivé a presné informácie?",
+  "foto": null,
+  "alt": "Peňaženka s bankovkami vo vrecku džínsov",
+  "stitok": "PREVEROVANIE OSÔB"
+ },
+ {
+  "nazev": "Preverovanie bezpečnosti, krádeže vo firmách",
+  "popis": "Sú Vaše firemné alebo obchodné priestory vystavené zvýšenému riziku kriminality? Kam mizne Váš tovar, služby či informácie?",
+  "foto": null,
+  "alt": "Dve bezpečnostné kamery na tehlovej stene",
+  "stitok": "BEZPEČNOSŤ A KRÁDEŽE"
+ },
+ {
+  "nazev": "Servis advokátskym kanceláriám",
+  "popis": "Zisťovanie skutočností, ktoré môžu slúžiť ako dôkazný prostriedok. Ide o súbor služieb v prospech klienta, resp. jeho právneho zástupcu.",
+  "foto": null,
+  "alt": "Podanie rúk a fotoaparát v rukách",
+  "stitok": "ADVOKÁTI"
+ },
+ {
+  "nazev": "Špeciálne požiadavky na mieru",
+  "popis": "Ak Váš problém vyžaduje osobitný prístup a originálne riešenia.",
+  "foto": null,
+  "alt": null,
+  "stitok": "NA MIERU"
+ },
+ {
+  "nazev": "Technické poradenstvo",
+  "popis": "Poradenstvo pri využití bezpečnostnej techniky.",
+  "foto": null,
+  "alt": null,
+  "stitok": "TECHNIKA"
+ }
+]
