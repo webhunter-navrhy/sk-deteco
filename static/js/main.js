@@ -24,7 +24,7 @@
   if (!b || !m) return;
   b.addEventListener('click', function () { var o = b.getAttribute('aria-expanded') === 'true'; b.setAttribute('aria-expanded', String(!o)); document.body.classList.toggle('menu-otvorene', !o); });
   m.addEventListener('click', function (e) { if (e.target.tagName === 'A') { b.setAttribute('aria-expanded', 'false'); document.body.classList.remove('menu-otvorene'); } });
-  var it = document.querySelectorAll('.spis, .chronologia li, .clanky li');
+  var it = document.querySelectorAll('.zlozka, .chronologia li, .clanky li');
   if (!('IntersectionObserver' in window)) return;
   var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('vidno'); io.unobserve(e.target); } }); }, { threshold: 0.15 });
   document.documentElement.classList.add('js');

@@ -26,13 +26,20 @@
   <div class="wrap">
     <h2>Ponuka služieb</h2>
     <p class="uvod-sekcie">Obráťte sa na nás s problémom a my Vám navrhneme optimálne riešenie prispôsobené Vašim individuálnym požiadavkám.</p>
-    <ul class="rejstrik" role="list">
-      {% for s in data.sluzby %}
-      <li class="spis">
-        <p class="spis-stitok">Spis · {{ s.stitok }}</p>
-        <div class="spis-text"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></div>
+    <ul class="zlozky" role="list">
+      {% for s in data.sluzby if s.foto %}
+      <li class="zlozka s-fotkou">
+        <p class="zalozka">Spis · {{ s.stitok }}</p>
+        <div class="zlozka-foto">{{ img(s.foto, s.alt, sizes='(min-width: 60rem) 17rem, (min-width: 40rem) 45vw, 100vw') }}</div>
+        <div class="zlozka-text"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></div>
       </li>
       {% endfor %}
+      <li class="zlozka zlozka-dalsie">
+        <p class="zalozka">Spis · Ďalšie služby</p>
+        <ul class="listy" role="list">
+          {% for s in data.sluzby if not s.foto %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+        </ul>
+      </li>
     </ul>
   </div>
 </section>
@@ -42,7 +49,7 @@
     <div>
       <h2>Elitní špecialisti</h2>
       <p class="velky">Detektívna kancelária DETECO s.r.o. je vytvorená odborníkmi, ktorí špeciálne znalosti a schopnosti získavali počas dlhoročného pôsobenia v bezpečnostných zložkách SR (spravodajské služby, Policajný zbor SR).</p>
-      <p>Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia, každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient. Sme maximálne lojálni, postupujeme citlivo a premyslene.</p>
+      <p>Spokojnosť klienta a diskrétnosť sú najvyššími princípmi našej práce. Uvedomujeme si dôležitosť zachovania Vášho súkromia.</p>
     </div>
     <aside class="zakon desky-list">
       <p class="stitok">Právny rámec</p>
@@ -58,20 +65,28 @@
     <ol class="chronologia" role="list">
       {% for k in data.postup %}<li><h3>{{ k.krok }}</h3><p>{{ k.text }}</p></li>{% endfor %}
     </ol>
-    <blockquote class="citat"><p>Sme maximálne lojálni, postupujeme citlivo a premyslene a vždy stojíme na Vašej strane.</p><footer>DETECO s.r.o.</footer></blockquote>
+    <div class="postup-bok">
+      <blockquote class="citat"><p>Sme maximálne lojálni, postupujeme citlivo a premyslene a vždy stojíme na Vašej strane.</p><footer>DETECO s.r.o.</footer></blockquote>
+      <div class="mlcanlivost">
+        <p class="stitok">Mlčanlivosť · doživotne</p>
+        <p>Každý z detektívov je zo zákona doživotne viazaný mlčanlivosťou, ktorej ho môže zbaviť iba konkrétny klient.</p>
+        <a class="tlacitko" href="#kontakt">Popísať prípad</a>
+      </div>
+    </div>
     </div>
   </div>
 </section>
 
-<section class="sekce" id="media">
-  <div class="wrap media-mriezka">
-    <div class="media-foto">{{ img('ta3.jpg', 'Detektív DETECO poskytuje rozhovor pre televíziu', sizes='(min-width: 60rem) 30rem, 100vw') }}</div>
-    <div>
-      <h2>Napísali o nás</h2>
-      <ul role="list" class="clanky">
-        {% for c in data.media %}<li class="vystrizok"><p class="datum">Výstrižok · {{ c.datum }}</p><h3>{{ c.nadpis }}</h3><p>{{ c.text }}</p></li>{% endfor %}
-      </ul>
-    </div>
+<section class="sekce media" id="media">
+  <div class="wrap">
+    <h2>Napísali o nás</h2>
+    <figure class="media-foto">
+      {{ img('ta3.jpg', 'Detektív DETECO odpovedá redaktorovi televízie TA3', sizes='(min-width: 72rem) 72rem, 100vw') }}
+      <figcaption><span>Reportáž TA3</span><strong>Príbuzní využívajú pri pátraní po nezvestných aj detektívov</strong> V reportáži spravodajskej televízie TA3 sme hovorili o skúsenostiach s hľadaním nezvestných osôb.<a class="citat-odkaz" href="https://www.ta3.com/clanok/63657/pribuzni-vyuzivaju-pri-patrani-po-nezvestnych-aj-detektivov" rel="noopener">Pozrieť reportáž →</a></figcaption>
+    </figure>
+    <ul role="list" class="clanky">
+      {% for c in data.media %}<li class="vystrizok"><p class="datum">{{ c.zdroj }} · {{ c.datum }}</p><h3>{{ c.nadpis }}</h3><p>{{ c.text }}</p><a class="citat-odkaz" href="{{ c.odkaz }}" rel="noopener">Čítať článok<span class="sr-only">: {{ c.nadpis }}</span> →</a></li>{% endfor %}
+    </ul>
   </div>
 </section>
 

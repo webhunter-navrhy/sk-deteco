@@ -1,10 +1,9 @@
 {
-  "url": "http://localhost:8766/sk-deteco/",
+  "url": "http://localhost:8799/sk-deteco/",
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Web má noindex (u ostrého webu pravděpodobně chyba)",
-    "Dotykové cíle <40 px na mobilu: 1× (např. input \"\" 28×28)"
+    "Web má noindex (u ostrého webu pravděpodobně chyba)"
   ],
   "metriky": {
     "sirky": {
@@ -33,18 +32,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.21,
+    "preneseno_PC_MB": 0.41,
     "nejvetsi_obrazek_PC": {
-      "kB": 14,
-      "url": "http://localhost:8766/sk-deteco/img/ta3-640.webp"
+      "kB": 93,
+      "url": "http://localhost:8799/sk-deteco/img/penazenka-640.webp"
     },
     "snimku_PC": 7,
-    "preneseno_mobil_MB": 0.25,
+    "preneseno_mobil_MB": 0.71,
     "nejvetsi_obrazek_mobil": {
-      "kB": 34,
-      "url": "http://localhost:8766/sk-deteco/img/detektiv-1280.webp"
+      "kB": 249,
+      "url": "http://localhost:8799/sk-deteco/img/penazenka-1100.webp"
     },
-    "snimku_mobil": 9,
+    "snimku_mobil": 11,
     "seo": {
       "title": "Súkromný detektív Bratislava – DETECO",
       "description": "Detektívna kancelária v Bratislave: nevera, preverovanie osôb a bezpečnosti, servis pre advokátov, t",
@@ -59,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 1,
+    "maly_dotykovy_cil": 0,
     "font_nadpis": "Schibsted Grotesk",
     "font_text": "IBM Plex Mono"
   }
